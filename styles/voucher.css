@@ -1,0 +1,52 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #52734D;
+    border-radius: 10px;
+    color: #91C788;
+    margin-bottom: 20px;
+}
+#navbar>a{
+    text-decoration: none;
+    color: #91C788;
+}
+#navbar>a:hover{
+    color: #77ff5f;
+}
+/* ********container style starts here********* */
+#mains{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(auto,1fr);
+    gap: 20px;
+}
+#mains>div>img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+}
+#mains>div>h3{
+    margin-left: 5px;
+}
+#mains>div>p{
+    margin-left: 5px;
+}
+#mains>div>button{
+    margin: 5px;
+    cursor: pointer;
+    padding: 10px 40px;
+    border-radius: 4px;
+    background-color: #52734D;
+}
+#mains>div>button:hover{
+    background-color: #91C788;
+}
+#mains>div{
+    border-radius: 5px;
+    padding: 5px;
+}
+#mains>div:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
